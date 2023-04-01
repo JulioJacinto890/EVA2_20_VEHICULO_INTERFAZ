@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="eva2_20_vehiculo_interfaz">
+  <ClassDiagramComponents>
+    <Class name="EVA2_20_VEHICULO_INTERFAZ" package="eva2_20_vehiculo_interfaz" visibility="public" xPosition="266.0" yPosition="75.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="ControlVelocidad" package="eva2_20_vehiculo_interfaz" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Methods>
+        <Method name="acelerar" returnType="void" visibility="package"/>
+        <Method name="detener" returnType="void" visibility="package"/>
+        <Method name="imprimirVel" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
